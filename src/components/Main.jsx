@@ -5,6 +5,8 @@ import cup from "../images/desktop/image-stand-out.jpg";
 import background1 from "../images/desktop/image-graphic-design.jpg";
 import background2 from "../images/desktop/image-photography.jpg";
 import Testimonials from "./Testimonials";
+import Footimg from "./Footimg";
+import Footer from "./Footer";
 const Main = () => {
   return (
     <div>
@@ -86,6 +88,8 @@ const Main = () => {
         </div>
       </div>
       <Testimonials />
+      <Footimg />
+      <Footer />
     </div>
   );
 };

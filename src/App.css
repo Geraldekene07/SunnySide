@@ -8,7 +8,7 @@
 .main {
   padding: 20px;
 }
-ul {
+.nav {
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -57,7 +57,7 @@ ul {
   padding: 11px;
 }
 
-/* css for main */
+/* css for main //////////////////////////////////////////////////////////////////////////////////*/
 .brand {
   padding: 100px;
 }
@@ -83,12 +83,90 @@ a {
   top: 150px;
   padding: 150px;
 }
-.graphic{
-    color: var(--Dark-desaturated-cyan);
-    font-family: 'Fraunces';
+.graphic {
+  color: var(--Dark-desaturated-cyan);
+  font-family: "Fraunces";
 }
-.photo{
-    color: var(--Dark-blue);
-    font-family: 'Fraunces';
+.photo {
+  color: var(--Dark-blue);
+  font-family: "Fraunces";
 }
 
+/* css for Testimonials//////////////////////////////////////////////////////////////////////////// */
+.testimonials {
+  padding: 120px;
+}
+
+.testimg {
+  border-radius: 50%;
+  width: 30%;
+}
+.maintest {
+  display: flex;
+}
+.firsttest {
+  margin-top: 10%;
+  font-family: "Fraunces";
+  color: var(--Grayish-blue);
+}
+.testname {
+  margin-top: 32%;
+  font-family: "Fraunces";
+  color: black;
+}
+.testrole {
+  font-family: "Barlow";
+  color: var(--Grayish-blue);
+}
+.testcont {
+  font-family: "Barlow";
+}
+
+/* css for foot-image ///////////////////////////////////////////////////////////////////////*/
+.footimg {
+  width: 70%;
+  display: flex;
+}
+.chow {
+  width: 35.7%;
+}
+
+/*css for footer //////////////////////////////////////////////////////////////////////////////*/
+.footer {
+  height: 70vh;
+  background-color: var(--Dark-moderate-cyan);
+}
+.foot {
+  color: var(--Dark-desaturated-cyan);
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 30%;
+  font-family: "Barlow";
+}
+.services:hover,
+.projects:hover,
+.about:hover {
+  color: var(--White);
+}
+.sunny {
+  color: var(--Dark-desaturated-cyan);
+  font-family: "Barlow";
+  font-weight: bolder;
+}
+.footmain {
+  padding: 5%;
+}
+.font{
+  color: var(--Dark-desaturated-cyan);
+}
+.font:hover{
+  color: var(--White);
+}
+.fontmain{
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+}
+
+/*  ///////////////////// */

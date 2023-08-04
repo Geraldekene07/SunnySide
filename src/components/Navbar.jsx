@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="main" style={backgroundStyle}>
       <div className="background">
         <h4>sunnyside</h4>
-        <ul>
+        <ul className="nav">
           <li>About</li>
           <li>Services</li>
           <li>Projects</li>
